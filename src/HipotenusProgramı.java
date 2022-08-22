@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class HipotenusProgramı {
     public static void main(String[] args) {
-        double a ,b ,c ,f ;
+        double a, b, c, u, t,S;
 
 
         Scanner inp =new Scanner(System.in);
@@ -13,10 +13,21 @@ public class HipotenusProgramı {
         System.out.println("2. kenarı giriniz: ");
         b = inp.nextDouble();
 
-        f= (a*a + b*b);
-        c = Math.sqrt(f);
+        System.out.println("3. kenarı giriniz: ");
+        c= inp.nextDouble();
 
-        System.out.println("Hipotenüs uzunluğu: " + c);
+        u = (a+b+c)/2;
+        t= (u*(u-a)*(u-b)*(u-c));
+        S= Math.sqrt(t);
+
+        System.out.println("Üçgenin Alanı: "+ S);
+
+
+
+
+
+
+
 
     }
 }
