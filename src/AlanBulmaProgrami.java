@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HipotenusProgramı {
+public class AlanBulmaProgrami {
     public static void main(String[] args) {
         double a, b, c, u, t,S;
 
