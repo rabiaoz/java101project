@@ -22,12 +22,5 @@ public class HipotenusProgramı {
 
         System.out.println("Üçgenin Alanı: "+ S);
 
-
-
-
-
-
-
-
     }
 }
