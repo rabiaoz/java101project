@@ -15,7 +15,7 @@ public class UcakBiletiFiyati {
 
         if (! (km>=0 && age>=0 && (travelType==1 || travelType ==2)) ){
             System.out.println("Hatalı giriş yaptınız!!!");
-        }else {
+        } else {
 
             if (age < 12) {
                 saleRatio = 0.5;
