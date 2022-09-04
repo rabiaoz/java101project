@@ -1,3 +1,5 @@
+package giris;
+
 import java.util.Scanner;
 public class SayiSiralama {
     public static void main(String[] args) {
